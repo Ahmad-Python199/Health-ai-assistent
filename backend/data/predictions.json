@@ -1,0 +1,446 @@
+[
+  {
+    "symptoms": [
+      "shortness_of_breath",
+      "confusion",
+      "fever",
+      "blurry_vision"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Asthma Flare-up",
+        "probability": "44.0%"
+      },
+      {
+        "name": "Stroke",
+        "probability": "12.3%"
+      },
+      {
+        "name": "Heart Attack",
+        "probability": "11.3%"
+      },
+      {
+        "name": "Migraine",
+        "probability": "10.9%"
+      }
+    ],
+    "risk_level": "Critical",
+    "emergency_alert": "CRITICAL ALERT: Severe confusion combined with speech, vision or balance impairments indicates a neurological emergency.",
+    "ml_explanation": "Explainable AI Diagnostic: The model's decision path was heavily influenced by active symptom drivers: 'Shortness Of Breath' (model weight: 5.2%), 'Fever' (model weight: 3.9%), 'Confusion' (model weight: 1.9%). The clinical escalation rule triggered a risk adjustment based on your reported severe intensity status.",
+    "ai_explanation": "### AI Health Narrative Summary (Simulation Mode)\n\nYou are experiencing symptoms: **shortness_of_breath, confusion, fever, blurry_vision** with an overall severity level of **severe**.\n\nOur machine learning model has identified **Asthma Flare-up** (estimated likelihood: **44.0%**) as the most probable matched pattern, followed by other possibilities listed in the results chart.\n\n**Potential Causes & Explanation:**\n- These symptoms are commonly seen in individuals with mild viral infections or physical stress.\n- Since your severity is marked as **severe**, you should monitor your symptoms carefully.\n\n**Recommended Self-Care Support:**\n1. **Rest:** Get 8+ hours of sleep to help your body recover.\n2. **Hydration:** Drink plenty of water, herbal teas, or electrolyte fluids.\n3. **Temperature Check:** Monitor your temperature daily if you have a fever.\n\n> [!NOTE]\n> **Informational Only:** This system provides informational insights only and is not a substitute for professional medical advice. Please consult a physician for proper medical evaluation.",
+    "recommendations": [
+      "Seek immediate emergency medical care. Do not wait to see if the symptoms improve.",
+      "Use your rescue inhaler as prescribed.",
+      "Move away from known triggers (smoke, pollen, dust)."
+    ],
+    "diet_suggestions": [
+      "Drink warm liquids to help relax airways.",
+      "Eat a diet high in vitamins C and E."
+    ],
+    "lifestyle_suggestions": [
+      "Monitor your peak flow rates.",
+      "Ensure your asthma action plan is readily accessible."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-05T18:02:43.168041",
+    "_id": "local_2_1780664563"
+  },
+  {
+    "symptoms": [
+      "cough",
+      "fever"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Influenza (Flu)",
+        "probability": "28.6%"
+      },
+      {
+        "name": "Asthma Flare-up",
+        "probability": "23.0%"
+      },
+      {
+        "name": "COVID-19",
+        "probability": "13.1%"
+      },
+      {
+        "name": "Heart Attack",
+        "probability": "7.4%"
+      }
+    ],
+    "risk_level": "High",
+    "emergency_alert": "",
+    "ml_explanation": "Explainable AI Diagnostic: The model's decision path was heavily influenced by active symptom drivers: 'Cough' (model weight: 4.3%), 'Fever' (model weight: 3.9%). The clinical escalation rule triggered a risk adjustment based on your reported severe intensity status.",
+    "ai_explanation": "### AI Health Narrative Summary (Simulation Mode)\n\nYou are experiencing symptoms: **cough, fever** with an overall severity level of **severe**.\n\nOur machine learning model has identified **Influenza (Flu)** (estimated likelihood: **28.6%**) as the most probable matched pattern, followed by other possibilities listed in the results chart.\n\n**Potential Causes & Explanation:**\n- These symptoms are commonly seen in individuals with mild viral infections or physical stress.\n- Since your severity is marked as **severe**, you should monitor your symptoms carefully.\n\n**Recommended Self-Care Support:**\n1. **Rest:** Get 8+ hours of sleep to help your body recover.\n2. **Hydration:** Drink plenty of water, herbal teas, or electrolyte fluids.\n3. **Temperature Check:** Monitor your temperature daily if you have a fever.\n\n> [!NOTE]\n> **Informational Only:** This system provides informational insights only and is not a substitute for professional medical advice. Please consult a physician for proper medical evaluation.",
+    "recommendations": [
+      "Rest at home.",
+      "Avoid close contact with others.",
+      "Take over-the-counter pain/fever relievers if approved by doctor."
+    ],
+    "diet_suggestions": [
+      "Drink warm broths, herbal teas, and plenty of water.",
+      "Consume nutrient-dense soups."
+    ],
+    "lifestyle_suggestions": [
+      "Ensure 8+ hours of sleep.",
+      "Use a cool-mist humidifier in your bedroom."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-05T18:04:05.420985",
+    "_id": "local_3_1780664645"
+  },
+  {
+    "symptoms": [
+      "chills",
+      "fever",
+      "cough"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Influenza (Flu)",
+        "probability": "53.4%"
+      },
+      {
+        "name": "COVID-19",
+        "probability": "16.7%"
+      },
+      {
+        "name": "Asthma Flare-up",
+        "probability": "13.6%"
+      },
+      {
+        "name": "Migraine",
+        "probability": "4.6%"
+      }
+    ],
+    "risk_level": "Medium",
+    "emergency_alert": "",
+    "ml_explanation": "Explainable AI Diagnostic: The model's decision path was heavily influenced by active symptom drivers: 'Cough' (model weight: 4.3%), 'Fever' (model weight: 3.9%), 'Chills' (model weight: 2.2%). The model predictions were contextualized by patient factors (Age: 34, History: asthma).",
+    "ai_explanation": "### AI Health Narrative Summary (Simulation Mode)\n\nYou are experiencing symptoms: **chills, fever, cough** with an overall severity level of **moderate**.\n\nOur machine learning model has identified **Influenza (Flu)** (estimated likelihood: **53.4%**) as the most probable matched pattern, followed by other possibilities listed in the results chart.\n\n**Potential Causes & Explanation:**\n- These symptoms are commonly seen in individuals with mild viral infections or physical stress.\n- Since your severity is marked as **moderate**, you should monitor your symptoms carefully.\n\n**Recommended Self-Care Support:**\n1. **Rest:** Get 8+ hours of sleep to help your body recover.\n2. **Hydration:** Drink plenty of water, herbal teas, or electrolyte fluids.\n3. **Temperature Check:** Monitor your temperature daily if you have a fever.\n\n> [!NOTE]\n> **Informational Only:** This system provides informational insights only and is not a substitute for professional medical advice. Please consult a physician for proper medical evaluation.",
+    "recommendations": [
+      "Rest at home.",
+      "Avoid close contact with others.",
+      "Take over-the-counter pain/fever relievers if approved by doctor."
+    ],
+    "diet_suggestions": [
+      "Drink warm broths, herbal teas, and plenty of water.",
+      "Consume nutrient-dense soups."
+    ],
+    "lifestyle_suggestions": [
+      "Ensure 8+ hours of sleep.",
+      "Use a cool-mist humidifier in your bedroom."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-05T18:36:18.627823",
+    "_id": "local_3_1780666580"
+  },
+  {
+    "symptoms": [
+      "dizziness"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Migraine",
+        "probability": "28.0%"
+      },
+      {
+        "name": "Asthma Flare-up",
+        "probability": "14.8%"
+      },
+      {
+        "name": "Influenza (Flu)",
+        "probability": "9.6%"
+      },
+      {
+        "name": "Stroke",
+        "probability": "8.8%"
+      }
+    ],
+    "risk_level": "Medium",
+    "emergency_alert": "",
+    "ml_explanation": "Explainable AI Diagnostic: The model's decision path was heavily influenced by active symptom drivers: 'Dizziness' (model weight: 1.8%). The model predictions were contextualized by patient factors (Age: 21, History: hypertension).",
+    "ai_explanation": "### AI Health Narrative Summary (Simulation Mode)\n\nYou are experiencing symptoms: **dizziness** with an overall severity level of **mild**.\n\nOur machine learning model has identified **Migraine** (estimated likelihood: **28.0%**) as the most probable matched pattern, followed by other possibilities listed in the results chart.\n\n**Potential Causes & Explanation:**\n- These symptoms are commonly seen in individuals with mild viral infections or physical stress.\n- Since your severity is marked as **mild**, you should monitor your symptoms carefully.\n\n**Recommended Self-Care Support:**\n1. **Rest:** Get 8+ hours of sleep to help your body recover.\n2. **Hydration:** Drink plenty of water, herbal teas, or electrolyte fluids.\n3. **Temperature Check:** Monitor your temperature daily if you have a fever.\n\n> [!NOTE]\n> **Informational Only:** This system provides informational insights only and is not a substitute for professional medical advice. Please consult a physician for proper medical evaluation.",
+    "recommendations": [
+      "Rest in a dark, quiet room.",
+      "Apply a cold compress to the forehead or neck."
+    ],
+    "diet_suggestions": [
+      "Avoid trigger items (caffeine, aged cheeses, chocolate).",
+      "Maintain consistent meal schedules."
+    ],
+    "lifestyle_suggestions": [
+      "Keep a migraine journal to identify patterns.",
+      "Reduce stress through breathing exercises."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-05T18:50:00.783795",
+    "_id": "local_4_1780667400"
+  },
+  {
+    "symptoms": [
+      "sweating"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Asthma Flare-up",
+        "probability": "19.5%"
+      },
+      {
+        "name": "Influenza (Flu)",
+        "probability": "13.8%"
+      },
+      {
+        "name": "Common Cold",
+        "probability": "12.5%"
+      },
+      {
+        "name": "Migraine",
+        "probability": "12.3%"
+      }
+    ],
+    "risk_level": "High",
+    "emergency_alert": "",
+    "ml_explanation": "Explainable AI Diagnostic: The model's decision path was heavily influenced by active symptom drivers: 'Sweating' (model weight: 1.2%). The model predictions were contextualized by patient factors (Age: 35, History: None).",
+    "ai_explanation": "### AI Health Narrative Summary (Simulation Mode)\n\nYou are experiencing symptoms: **sweating** with an overall severity level of **moderate**.\n\nOur machine learning model has identified **Asthma Flare-up** (estimated likelihood: **19.5%**) as the most probable matched pattern, followed by other possibilities listed in the results chart.\n\n**Potential Causes & Explanation:**\n- These symptoms are commonly seen in individuals with mild viral infections or physical stress.\n- Since your severity is marked as **moderate**, you should monitor your symptoms carefully.\n\n**Recommended Self-Care Support:**\n1. **Rest:** Get 8+ hours of sleep to help your body recover.\n2. **Hydration:** Drink plenty of water, herbal teas, or electrolyte fluids.\n3. **Temperature Check:** Monitor your temperature daily if you have a fever.\n\n> [!NOTE]\n> **Informational Only:** This system provides informational insights only and is not a substitute for professional medical advice. Please consult a physician for proper medical evaluation.",
+    "recommendations": [
+      "Use your rescue inhaler as prescribed.",
+      "Move away from known triggers (smoke, pollen, dust)."
+    ],
+    "diet_suggestions": [
+      "Drink warm liquids to help relax airways.",
+      "Eat a diet high in vitamins C and E."
+    ],
+    "lifestyle_suggestions": [
+      "Monitor your peak flow rates.",
+      "Ensure your asthma action plan is readily accessible."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-05T18:50:57.811388",
+    "_id": "local_5_1780667457"
+  },
+  {
+    "symptoms": [
+      "fever"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Influenza (Flu)",
+        "probability": "29.9%"
+      },
+      {
+        "name": "Appendicitis",
+        "probability": "11.6%"
+      },
+      {
+        "name": "Migraine",
+        "probability": "10.9%"
+      },
+      {
+        "name": "Asthma Flare-up",
+        "probability": "10.2%"
+      }
+    ],
+    "risk_level": "Medium",
+    "emergency_alert": "",
+    "ml_explanation": "Explainable AI Diagnostic: The model's decision path was heavily influenced by active symptom drivers: 'Fever' (model weight: 3.9%). The model predictions were contextualized by patient factors (Age: 35, History: None).",
+    "ai_explanation": "**What the model is telling us**\n\nYour symptoms (moderate fever) were fed into a machine‑learning tool that looks at many possible conditions and gives a “probability” for each one. The top four possibilities it came up with are:\n\n| Condition | Rough probability |\n|-----------|-------------------|\n| Influenza (Flu) | 29.9 % |\n| Appendicitis | 11.6 % |\n| Migraine | 10.9 % |\n| Asthma flare‑up | 10.2 % |\n\nThese numbers are only estimates based on patterns in the data the model was trained on. They do **not** mean you definitely have any of these conditions, nor do they replace a professional medical evaluation.\n\n---\n\n### Why each possibility might show up\n\n| Condition | Why it could appear with a fever |\n|-----------|----------------------------------|\n| **Influenza (Flu)** | Fever is a classic flu symptom. The flu often starts with a sudden fever, chills, body aches, and sometimes a cough or sore throat. |\n| **Appendicitis** | Early appendicitis can present with a low‑grade fever and abdominal discomfort. It’s less common than flu but still a possibility, especially if you notice any abdominal pain. |\n| **Migraine** | Migraines can sometimes be accompanied by a mild fever, especially in people who experience “migraine with aura” or “migraine with fever.” The fever is usually low‑grade and short‑lived. |\n| **Asthma flare‑up** | Asthma exacerbations can cause a slight fever, especially if there’s an underlying viral infection that triggers the asthma. |\n\n---\n\n### What you can do right now (non‑medical tips)\n\n1. **Rest** – Give your body a chance to fight whatever is causing the fever.  \n2. **Hydrate** – Drink water, herbal teas, or clear broths. Fever can lead to fluid loss.  \n3. **Cool environment** – Keep the room at a comfortable temperature; use a fan or a cool compress if you feel overheated.  \n4. **Light, easy foods** – Soups, toast, bananas, or rice are gentle on the stomach.  \n5. **Monitor symptoms** – Note any new or worsening signs such as severe abdominal pain, persistent high fever, difficulty breathing, or a rash.  \n6. **Seek professional help** – If the fever lasts more than 48–72 hours, becomes very high, or you develop any of the symptoms above, please see a healthcare professional promptly.\n\n---\n\n### Bottom line\n\n- The model is giving you a **range of possibilities** based on the information you provided.  \n- **None of these results are a diagnosis**; they’re simply probabilities that help guide what to watch for.  \n- **If you’re worried or if symptoms change or worsen, please contact a healthcare professional** for a thorough evaluation.\n\n> *This system provides informational insights only and is not a substitute for professional medical advice.*",
+    "recommendations": [
+      "Rest at home.",
+      "Avoid close contact with others.",
+      "Take over-the-counter pain/fever relievers if approved by doctor."
+    ],
+    "diet_suggestions": [
+      "Drink warm broths, herbal teas, and plenty of water.",
+      "Consume nutrient-dense soups."
+    ],
+    "lifestyle_suggestions": [
+      "Ensure 8+ hours of sleep.",
+      "Use a cool-mist humidifier in your bedroom."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-05T18:51:46.663244",
+    "_id": "local_6_1780667506"
+  },
+  {
+    "symptoms": [
+      "headche"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Asthma Flare-up",
+        "probability": "21.8%"
+      },
+      {
+        "name": "Migraine",
+        "probability": "14.5%"
+      },
+      {
+        "name": "Common Cold",
+        "probability": "11.2%"
+      },
+      {
+        "name": "Influenza (Flu)",
+        "probability": "10.7%"
+      }
+    ],
+    "risk_level": "High",
+    "emergency_alert": "",
+    "ml_explanation": "Explainable AI Diagnostic: Base classifier predictions generated from patient demographics and symptom profile weights.",
+    "ai_explanation": "### AI Health Narrative Summary (Simulation Mode)\n\nYou are experiencing symptoms: **headche** with an overall severity level of **moderate**.\n\nOur machine learning model has identified **Asthma Flare-up** (estimated likelihood: **21.8%**) as the most probable matched pattern, followed by other possibilities listed in the results chart.\n\n**Potential Causes & Explanation:**\n- These symptoms are commonly seen in individuals with mild viral infections or physical stress.\n- Since your severity is marked as **moderate**, you should monitor your symptoms carefully.\n\n**Recommended Self-Care Support:**\n1. **Rest:** Get 8+ hours of sleep to help your body recover.\n2. **Hydration:** Drink plenty of water, herbal teas, or electrolyte fluids.\n3. **Temperature Check:** Monitor your temperature daily if you have a fever.\n\n> [!NOTE]\n> **Informational Only:** This system provides informational insights only and is not a substitute for professional medical advice. Please consult a physician for proper medical evaluation.",
+    "recommendations": [
+      "Use your rescue inhaler as prescribed.",
+      "Move away from known triggers (smoke, pollen, dust)."
+    ],
+    "diet_suggestions": [
+      "Drink warm liquids to help relax airways.",
+      "Eat a diet high in vitamins C and E."
+    ],
+    "lifestyle_suggestions": [
+      "Monitor your peak flow rates.",
+      "Ensure your asthma action plan is readily accessible."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-05T18:55:46.932178",
+    "_id": "local_7_1780667746"
+  },
+  {
+    "symptoms": [
+      "dizziness",
+      "cough",
+      "rash"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Asthma Flare-up",
+        "probability": "30.7%"
+      },
+      {
+        "name": "Migraine",
+        "probability": "18.5%"
+      },
+      {
+        "name": "Common Cold",
+        "probability": "11.5%"
+      },
+      {
+        "name": "Influenza (Flu)",
+        "probability": "11.0%"
+      }
+    ],
+    "risk_level": "High",
+    "emergency_alert": "",
+    "ml_explanation": "Explainable AI Diagnostic: The model's decision path was heavily influenced by active symptom drivers: 'Cough' (model weight: 4.3%), 'Dizziness' (model weight: 1.8%), 'Rash' (model weight: 0.1%). The model predictions were contextualized by patient factors (Age: 35, History: hypertension).",
+    "ai_explanation": "\n\nHere's a compassionate explanation of the results and guidance for you:\n\n**What the results mean:**  \nThe symptom analyzer suggests a few possible explanations for your dizziness, cough, and rash, but none are certain. The top possibilities include:  \n- **Asthma Flare-up (30.7%)**: Could explain the cough and possibly dizziness if breathing feels tight.  \n- **Migraine (18.5%)**: Might account for dizziness, but less likely to cause a rash.  \n- **Common Cold (11.5%)** or **Flu (11.0%)**: Both could cause cough and dizziness, but rashes aren’t typical.  \n\n**What might be happening:**  \nYour symptoms could stem from a combination of factors. The rash might be unrelated (like a skin irritation) or part of an allergic reaction. Hypertension doesn’t directly cause these symptoms, but stress or dehydration could worsen dizziness.  \n\n**Self-care tips (while mild):**  \n- Stay hydrated and rest to help your body recover.  \n- Use a cool compress on your forehead if dizziness persists.  \n- Avoid allergens or irritants (e.g., dust, strong perfumes) that might trigger a rash or cough.  \n- Monitor symptoms—if they worsen (e.g., trouble breathing, fever, rash spreading), seek care.  \n\n**Important next step:**  \nSince these possibilities aren’t definitive and your health history includes hypertension, **please consult a healthcare provider** to rule out anything serious. They can assess you in person and offer tailored advice.  \n\nThis system provides informational insights only and is not a substitute for professional medical advice.\n",
+    "recommendations": [
+      "Use your rescue inhaler as prescribed.",
+      "Move away from known triggers (smoke, pollen, dust)."
+    ],
+    "diet_suggestions": [
+      "Drink warm liquids to help relax airways.",
+      "Eat a diet high in vitamins C and E."
+    ],
+    "lifestyle_suggestions": [
+      "Monitor your peak flow rates.",
+      "Ensure your asthma action plan is readily accessible."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-10T13:54:49.453237",
+    "_id": "local_8_1781081689"
+  },
+  {
+    "symptoms": [
+      "rash",
+      "chest_pain"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Heart Attack",
+        "probability": "32.5%"
+      },
+      {
+        "name": "Asthma Flare-up",
+        "probability": "30.1%"
+      },
+      {
+        "name": "Migraine",
+        "probability": "10.3%"
+      },
+      {
+        "name": "Common Cold",
+        "probability": "7.6%"
+      }
+    ],
+    "risk_level": "Critical",
+    "emergency_alert": "",
+    "ml_explanation": "Explainable AI Diagnostic: The model's decision path was heavily influenced by active symptom drivers: 'Chest Pain' (model weight: 4.3%), 'Rash' (model weight: 0.1%). The model predictions were contextualized by patient factors (Age: 39, History: hypertension).",
+    "ai_explanation": "I'm here to provide informational insights only and am not a substitute for professional medical advice. Your symptoms of rash and chest pain, along with your medical history of hypertension, have been analyzed by a symptom analyzer machine learning model. The top conditions predicted are:\n\n1. Heart Attack (32.5% probability)\n2. Asthma Flare-up (30.1% probability)\n3. Migraine (10.3% probability)\n4. Common Cold (7.6% probability)\n\nPlease note that these are only probabilities and not a definitive diagnosis. It's essential to consult a healthcare professional for an accurate assessment and appropriate treatment. In the meantime, here are some general non-medical support tips:\n\n1. Rest: Ensure you get enough rest and avoid strenuous activities.\n2. Hydration: Drink plenty of fluids, especially water, to stay hydrated.\n3. Monitor symptoms: Keep track of your symptoms and note any changes or worsening.\n4. Avoid triggers: If you have asthma, try to avoid triggers such as smoke, dust, or strong emotions that may cause a flare-up.\n5. Stress management: Practice stress-reduction techniques like deep breathing, meditation, or yoga.\n\nAgain, please consult a healthcare professional if you are concerned about your symptoms. They can provide personalized advice and treatment based on your specific situation.\n",
+    "recommendations": [
+      "Call emergency services immediately.",
+      "Do not engage in physical activity.",
+      "Sit down, rest, and keep calm."
+    ],
+    "diet_suggestions": [
+      "Do not consume food or drink until evaluated by emergency professionals."
+    ],
+    "lifestyle_suggestions": [
+      "Ensure someone stays with you.",
+      "Avoid driving yourself; wait for an ambulance."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-10T13:57:12.104255",
+    "_id": "local_9_1781081832"
+  },
+  {
+    "symptoms": [
+      "vomiting",
+      "chest_pain"
+    ],
+    "predicted_conditions": [
+      {
+        "name": "Asthma Flare-up",
+        "probability": "26.1%"
+      },
+      {
+        "name": "Heart Attack",
+        "probability": "24.2%"
+      },
+      {
+        "name": "Appendicitis",
+        "probability": "13.4%"
+      },
+      {
+        "name": "Gastroenteritis (Food Poisoning)",
+        "probability": "12.6%"
+      }
+    ],
+    "risk_level": "High",
+    "emergency_alert": "",
+    "ml_explanation": "Explainable AI Diagnostic: The model's decision path was heavily influenced by active symptom drivers: 'Chest Pain' (model weight: 4.3%), 'Vomiting' (model weight: 2.8%). The model predictions were contextualized by patient factors (Age: 35, History: hypertension).",
+    "ai_explanation": "**What the model is telling us**\n\nThe symptom checker looked at the combination of **vomiting** and **chest pain** (both described as mild) in a 35‑year‑old man who has a history of high blood pressure. Based on patterns it has learned from many similar cases, the model gave the highest probability to a few possible explanations:\n\n| Rank | Possible condition (probability) | What it means in everyday terms |\n|------|----------------------------------|---------------------------------|\n| 1️⃣ | **Asthma flare‑up** (≈ 26 %) | The airways can become irritated and narrow, leading to coughing, wheezing, or a feeling of tightness in the chest. Vomiting can sometimes happen when the cough is severe. |\n| 2️⃣ | **Heart attack** (≈ 24 %) | Chest discomfort that feels like pressure, squeezing, or a dull ache can be a sign that the heart isn’t getting enough blood. Vomiting is less common but can occur, especially if the pain is intense. |\n| 3️⃣ | **Appendicitis** (≈ 13 %) | Inflammation of the appendix usually starts with abdominal pain that can radiate to the chest or back, and vomiting may appear as the irritation worsens. |\n| 4️⃣ | **Gastroenteritis (food‑related upset)** (≈ 13 %) | An upset stomach from a virus or something you ate can cause nausea/vomiting and, occasionally, referred chest discomfort. |\n\nThese percentages are **probabilities**, not diagnoses. The model is simply highlighting conditions that often appear together with the symptoms you described. Because chest pain can be a sign of something serious (like a heart issue), it’s important to treat it with caution.\n\n---\n\n### What might be going on?\n\n- **Asthma flare‑up** – If you’ve had asthma before, a trigger (like allergens, cold air, or stress) could cause the chest tightness and make you vomit from coughing.\n- **Heart‑related issue** – Hypertension (high blood pressure) raises the risk of heart problems. Even mild‑looking chest discomfort can sometimes signal that the heart isn’t getting enough oxygen.\n- **Appendicitis** – This usually starts with pain around the belly button that moves to the lower right side, but it can sometimes feel like it’s spreading upward.\n- **Stomach upset** – A recent meal, viral infection, or food intolerance can cause nausea and vomiting; the chest sensation might just be a side effect of that irritation.\n\n---\n\n### General, non‑medical support you can try right now\n\n| Action | Why it helps | How to do it safely |\n|--------|--------------|---------------------|\n| **Rest** | Gives your body a chance to recover and reduces strain on the heart and lungs. | Sit or lie down in a comfortable position; avoid strenuous activity. |\n| **Stay hydrated** | Fluids help keep your throat moist (if coughing) and support circulation. | Sip water, clear broth, or an electrolyte drink slowly—don’t gulp large amounts at once. |\n| **Monitor your symptoms** | Watching for changes helps you know when to seek help. | Keep a simple log of: <br>• When chest pain occurs (time of day, intensity) <br>• Any new or worsening pain, shortness of breath, dizziness, or vomiting <br>• Fever or chills |\n| **Cool, fresh air** | May ease breathing if the issue is asthma‑related. | Open a window or step outside for a few minutes, but avoid very cold or polluted air if it makes you feel worse. |\n| **Avoid triggers** | Certain foods, smoke, strong scents, or heavy meals can aggravate nausea or chest discomfort. | Stick to bland, easy‑to‑digest foods (e.g., toast, rice, bananas) until you feel better. |\n| **Gentle movement** | Light walking can improve circulation without over‑exerting the heart. | If you feel up to it, take a short, slow walk (5‑10 minutes) and see how you feel. Stop if you become short of breath or the pain worsens. |\n\n---\n\n### When to reach out for professional care\n\n- **Chest pain** that feels pressure‑like, squeezes, or spreads to the arm, jaw, or back.  \n- **Sudden worsening** of pain, shortness of breath, dizziness, or fainting.  \n- **Persistent vomiting** that prevents you from keeping fluids down.  \n- **Fever** higher than 100.4 °F (38 °C) or chills.  \n- **Any new symptom** that concerns you, especially given your history of high blood pressure.\n\nBecause chest discomfort can sometimes signal a serious condition, the safest next step is to **contact a healthcare professional** (your primary doctor, an urgent‑care clinic, or emergency services) to get a proper evaluation.  \n\n---\n\n> **Important reminder:** This information is for general understanding only. It does **not** replace a medical examination, diagnosis, or treatment plan from a qualified health professional. If you are worried about your symptoms, please seek medical attention promptly.",
+    "recommendations": [
+      "Use your rescue inhaler as prescribed.",
+      "Move away from known triggers (smoke, pollen, dust)."
+    ],
+    "diet_suggestions": [
+      "Drink warm liquids to help relax airways.",
+      "Eat a diet high in vitamins C and E."
+    ],
+    "lifestyle_suggestions": [
+      "Monitor your peak flow rates.",
+      "Ensure your asthma action plan is readily accessible."
+    ],
+    "disclaimer": "This system provides informational insights only and is not a substitute for professional medical advice.",
+    "user_id": "default_user",
+    "timestamp": "2026-06-10T13:59:55.225207",
+    "_id": "local_10_1781081995"
+  }
+]
